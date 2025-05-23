@@ -25,3 +25,9 @@ Propósito: Garantizar una única instancia de una clase.
 Aplicación:
 CombatienteFactory podría implementarse como Singleton (aunque en el código actual no lo es).
 Ventaja: Centraliza el acceso a la creación de objetos.
+
+5. State (Estado)
+Propósito: Gestionar cambios de comportamiento según el estado interno.
+Aplicación:
+El atributo vitalidad en Combatiente afecta a sigueEnPie(), cambiando el estado del combate.
+Ventaja: Simplifica transiciones entre estados (ej.: de "activo" a "derrotado").
